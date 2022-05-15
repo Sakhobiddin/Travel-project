@@ -1,0 +1,230 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.6rem;
+  text-align: center;
+}
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li,
+button,
+input,
+label,
+p {
+  font-size: 2rem;
+}
+button {
+  padding: 2rem 6rem;
+  font-size: 1.8rem;
+  background: #022831;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #033742;
+}
+
+/* header navbar, hero (sections) */
+.main-head {
+  background: #022831;
+  color: #fff;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 40rem;
+}
+ul li {
+  list-style: none;
+}
+#logo {
+  flex: 1 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: normal;
+}
+span {
+  color: #7bff00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* hero section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url("../images/pexels-jeshootscom-1201995.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h3 {
+  padding: 5rem;
+}
+
+/* benefits */
+
+.benefits-head {
+  background: #022831;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+/* benefits */
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-height: 40vh;
+  flex: 1 1 25rem;
+  margin: 2rem 5rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-icon {
+  background: #add8ea;
+}
+
+.cards img {
+  max-width: 28%;
+  margin: 2rem;
+}
+
+.card h4,
+.card p {
+  padding: 1rem;
+}
+
+/* contact section */
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url(../images/pexels-leah-kelley-3935702.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  background: rgba(0, 0, 0, 0.2);
+  width: 60%;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.form-head {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0.25rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.form-wrapper input {
+  padding: 1rem;
+}
+
+/* footer */
+
+footer {
+  background: #022831;
+}
+
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+}
+
+footer h5 {
+  flex:1 1 30rem;
+}
+
+footer ul {
+  flex:1 1 30rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Media Query */
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 55%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
+}
